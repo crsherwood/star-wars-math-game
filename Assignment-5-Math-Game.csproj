@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>Assignment_5_Math_Game</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\empty_space_&amp;_stars.jpg" />
+    <None Remove="Images\naboo_celebration.jpg" />
+    <None Remove="Images\pod_racing.jpg" />
+    <None Remove="Images\throne_room.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\empty_space_&amp;_stars.jpg" />
+    <Content Include="Images\naboo_celebration.jpg" />
+    <Content Include="Images\pod_racing.jpg" />
+    <Content Include="Images\throne_room.jpg" />
+  </ItemGroup>
+
+</Project>
